@@ -5,21 +5,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.gallery.GalleryFragment"
-    android:background="@android:color/holo_blue_dark">
+    android:background="@drawable/base_nav_bar">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/Theme.MC.PopupOverlay" />
+
+
 
     <TextView
         android:id="@+id/text_gallery"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="155dp"
+        android:layout_height="35dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:textAlignment="center"
+        android:text="Cultura Popular"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ant"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sig"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="664dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
