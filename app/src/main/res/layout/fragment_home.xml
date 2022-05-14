@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment"
-    android:background="@android:color/holo_blue_dark">
+    android:background="@drawable/side_nav_bar">
 
 
     <TextView
@@ -46,14 +46,34 @@
         android:layout_width="348dp"
         android:layout_height="57dp"
         android:text="EXPLORAR PUBLICACIONES"
+        app:rippleColor="#3F51B5"
         tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="387dp" />
+        tools:layout_editor_absoluteY="411dp" />
+
+
 
     <Button
         android:id="@+id/button"
         android:layout_width="348dp"
         android:layout_height="57dp"
         android:text="TENGO UNA CUENTA"
+        app:rippleColor="#3F51B5"
         tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="570dp" />
+        tools:layout_editor_absoluteY="612dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="103dp"
+        android:layout_height="113dp"
+        android:src="@drawable/face"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/google"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="481dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
