@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/base_nav_bar">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/Theme.MC.PopupOverlay"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="356dp"
+        android:layout_height="121dp"
+        app:srcCompat="@drawable/tec"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="54dp"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:text="Acerca de"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="219dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="338dp"
+        android:layout_height="379dp"
+        android:text="Memoria colectiva es un término acuñado por el filósofo y sociólogo Maurice Halbwachs que hace referencia a los recuerdos y memorias que atesora y destaca la sociedad en su conjunto. En sus estudios habla de la existencia de una memoria individual que está relacionada directamente a la memoria de grupo encontrándose siempre en constantes cambios.
+
+La memoria es siempre social, esto lo indica el hecho de que el recuerdo solo emerge en relación con personas, grupos, lugares o palabras. Así, los marcos sociales de la memoria que determina a partir de estudiar los procesos sociales de memorización colectiva, se componen de combinaciones de imágenes, ideas o conceptos y representaciones. La memoria colectiva es compartida, transmitida y construida por el grupo o la sociedad. La memoria colectiva está relacionada con fenómenos de opinión pública.
+
+La memoria restituye lo que el viento del desierto se lleva; volvemos a trazar con nuestras manos lo que las tormentas de arena borran. "
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="286dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
