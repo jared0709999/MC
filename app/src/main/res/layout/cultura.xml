@@ -12,7 +12,8 @@
         android:layout_height="546dp"
         app:srcCompat="@drawable/fondo"
         tools:layout_editor_absoluteX="-134dp"
-        tools:layout_editor_absoluteY="-52dp" />
+        tools:layout_editor_absoluteY="-52dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -20,7 +21,8 @@
         android:layout_height="305dp"
         app:srcCompat="@drawable/fondo"
         tools:layout_editor_absoluteX="-190dp"
-        tools:layout_editor_absoluteY="592dp" />
+        tools:layout_editor_absoluteY="592dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -28,55 +30,64 @@
         android:layout_height="478dp"
         app:srcCompat="@drawable/user"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="17dp" />
+        tools:layout_editor_absoluteY="6dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="228dp"
+        android:layout_height="47dp"
         android:ems="10"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="522dp" />
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="520dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="261dp"
+        android:layout_height="46dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="453dp" />
+        tools:layout_editor_absoluteY="452dp"
+        tools:ignore="MissingConstraints" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Recordarme"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="592dp" />
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="624dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Usuario"
+        android:textSize="20sp"
         tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="470dp" />
+        tools:layout_editor_absoluteY="470dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Contraseña"
+        android:textSize="20sp"
         tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="534dp" />
+        tools:layout_editor_absoluteY="534dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ingresar"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="647dp" />
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="624dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
