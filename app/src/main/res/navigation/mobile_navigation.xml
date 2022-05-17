@@ -32,4 +32,9 @@
         android:name="com.example.mc.ui.cultura.CulturaFragment"
         android:label="Login"
         tools:layout="@layout/cultura"/>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.mc.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
 </navigation>

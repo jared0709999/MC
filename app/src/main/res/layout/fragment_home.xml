@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment"
-    android:background="@drawable/side_nav_bar">
+    android:background="@drawable/side_nav_bar"
+    android:windowSplashScreenAnimatedIcon="">
+
+
 
 
     <TextView
@@ -31,7 +37,8 @@
         android:layout_height="wrap_content"
         android:text="---Todos tenemos algo que contar---"
         tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="356dp" />
+        tools:layout_editor_absoluteY="356dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -39,7 +46,8 @@
         android:layout_height="236dp"
         android:src="@drawable/mc"
         tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="34dp" />
+        tools:layout_editor_absoluteY="34dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button"
@@ -48,7 +56,8 @@
         android:text="EXPLORAR PUBLICACIONES"
         app:rippleColor="#3F51B5"
         tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="411dp" />
+        tools:layout_editor_absoluteY="411dp"
+        tools:ignore="MissingConstraints" />
 
 
 
@@ -59,7 +68,8 @@
         android:text="TENGO UNA CUENTA"
         app:rippleColor="#3F51B5"
         tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="612dp" />
+        tools:layout_editor_absoluteY="612dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -67,7 +77,8 @@
         android:layout_height="93dp"
         android:src="@drawable/face"
         tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="494dp" />
+        tools:layout_editor_absoluteY="494dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -75,5 +86,6 @@
         android:layout_height="88dp"
         android:src="@drawable/google"
         tools:layout_editor_absoluteX="226dp"
-        tools:layout_editor_absoluteY="499dp" />
+        tools:layout_editor_absoluteY="499dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

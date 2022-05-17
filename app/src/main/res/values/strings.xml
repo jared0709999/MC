@@ -13,4 +13,13 @@
     <string name="fotografia">Fotografía</string>
     <string name="lengua_materna">Lengua Materna</string>
     <string name="informacion">Información</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Registrarse</string>
+    <string name="welcome">"Bienvenid@!"</string>
+    <string name="invalid_username">Usuario no valido</string>
+    <string name="invalid_password">Tu contraseña deber ser mayor a 5 caracteres</string>
+    <string name="login_failed">"Error de inicio de sesion"</string>
 </resources>
