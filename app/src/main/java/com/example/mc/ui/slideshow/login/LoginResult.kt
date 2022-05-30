@@ -1,4 +1,4 @@
-package com.example.mc.ui.login
+package com.example.mc.ui.slideshow.login
 
 /**
  * Authentication result : success (user details) or error message.

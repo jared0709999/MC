@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.mc.ui.gallery.GalleryFragment"
+        android:name="com.example.mc.ui.gallery.InicioFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
@@ -32,9 +32,6 @@
         android:name="com.example.mc.ui.cultura.CulturaFragment"
         android:label="Login"
         tools:layout="@layout/cultura"/>
-    <fragment
-        android:id="@+id/loginFragment"
-        android:name="com.example.mc.ui.login.LoginFragment"
-        android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+
+
 </navigation>

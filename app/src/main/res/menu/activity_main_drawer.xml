@@ -17,12 +17,12 @@
             android:icon="@drawable/autor"
             android:title="@string/menu_slideshow" />
         <item
-            android:id=""
+            android:id="@+id/nav_foto"
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/fotografia" />
 
         <item
-            android:id=""
+            android:id="@+id/nav_lmaterna"
             android:icon="@drawable/lengua"
             android:title="@string/lengua_materna" />
 

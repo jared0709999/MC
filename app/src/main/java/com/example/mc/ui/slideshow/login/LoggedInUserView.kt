@@ -1,4 +1,4 @@
-package com.example.mc.ui.login
+package com.example.mc.ui.slideshow.login
 
 /**
  * User details post authentication that is exposed to the UI

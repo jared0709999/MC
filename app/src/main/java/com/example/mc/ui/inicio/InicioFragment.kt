@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.mc.databinding.FragmentGalleryBinding
 
-class GalleryFragment : Fragment() {
+class InicioFragment : Fragment() {
 
     private var _binding: FragmentGalleryBinding? = null
 
@@ -28,7 +28,7 @@ class GalleryFragment : Fragment() {
         _binding = FragmentGalleryBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textCulturap2
+        val textView: TextView = binding.textView3
         galleryViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
