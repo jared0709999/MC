@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "568415846409",
+    "project_id": "memoria-colectiva",
+    "storage_bucket": "memoria-colectiva.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568415846409:android:4072d36844523b7d75b8d8",
+        "android_client_info": {
+          "package_name": "com.example.mc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568415846409-bsd8rh2a5g5ar0f1c3g2ga6r21vg94kj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJjxSHIWGTiwpRffsLo0-3ev5SEiChH4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568415846409-bsd8rh2a5g5ar0f1c3g2ga6r21vg94kj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
